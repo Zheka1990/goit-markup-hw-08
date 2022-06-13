@@ -1,0 +1,78 @@
+/* Чем мы занимаемся */
+.whatwedo 
+{
+    display: flex;
+    margin-bottom: 94px;   
+}
+.whatwedo__container {
+    width: 1200px;    
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.whatwedo__secondtitle {
+    margin-bottom: 50px;
+    height: 42px;
+    left: 668px;top: 1693px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-color:black;
+    
+}
+    
+
+.whatwedo__list {
+    display: flex;
+}
+.whatwedo__list {
+    margin:0px;
+    padding: 0px;
+}
+.whatwedo__item {
+    margin-right: 30px;
+}
+.whatwedo__item:last-child {
+    margin-right:0px;
+}
+/* Позиціонування */
+.whatwedo__container {
+    z-index: 10;
+}
+.whatwedo__position-actions {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 70px;
+    background: #2F303ACC;
+box-shadow: 0px 4px 4px 0px;
+display: flex;
+justify-content: center;   
+}
+.whatwedo__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.whatwedo__position-img {
+    position: relative;
+}
+.whatwedo__text {
+ margin: 0px;
+ padding: 0px;
+ justify-content: center;
+font-family: var(--main-font);
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--white-text);
+padding-top: 27px;
+padding-bottom: 27px;
+}
+.text-overlay{
+    margin: 0;}

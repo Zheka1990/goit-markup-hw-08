@@ -1,0 +1,162 @@
+/*Modalka ba{ckground 6 */
+    .modal-text  
+    {   margin: 0px;
+        margin-bottom: 12px;
+        font-family: var(--main-font);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;   
+    }
+    .label-field {
+        display: flex;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .close  {
+        display: flex;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px 56px;
+        font-family: var(--main-font);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        text-align: center;
+    
+        background-color: var(--accent-color);
+        color: var(--white-text);
+        cursor: pointer;  
+    }
+    .submite-modaleposition {
+    position: relative;
+    }
+    .container-fieldmod {
+        position: relative;
+      display: flex;
+      flex-direction: column;
+        margin: 0;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        transition: border-color 250ms var(--animation);
+        margin-bottom: 4px;
+    }
+    .container-fieldmod:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .container-fieldmod input { margin: 0;
+    padding: 11px;
+    padding-left: 42px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0px;
+    
+    transition: border-color 250ms var(--animation); }
+    
+    
+    .label-field {
+    display: flex;
+    cursor: pointer;
+    color: var(--color-text);
+    margin-bottom: 4px;
+    }
+    .input-field {
+        width:100%;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+    }
+    .input-field:hover, :focus-within {
+    border-color: #2196F3;
+    fill: #2196F3;
+    }
+    .container-fieldmod:hover, :focus-within {
+    border-color: #2196F3;
+    }
+    .input-field:hover + .modicon, 
+    .input-field:focus + .modicon {
+      fill: var(--accent-color);
+    }
+    .input-field {
+        outline: none;
+    }
+    .modicon {
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        transform: translateY(-50%);
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        transition: fill 250ms var(--animation);
+        fill: #212121;
+    }
+    
+    .modicon:hover,:focus-within {
+        fill: var(--accent-color);
+    }
+    
+    
+    .comment-field {
+      margin: 0px;
+      resize: none;
+      padding: 12px 16px;
+      cursor: pointer;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+    }
+    .input-fiel {
+        position: absolute;
+        appearance: none;
+    }
+    .modicons {
+        position: absolute;
+        left: -36px;
+        width: 16px;
+        height: 15px;
+        border: 2px solid #2a2a2a;
+        border-radius: 4px;
+        fill: var(--white-text);
+        margin-left: 12px;
+    }
+    .input-fiel:checked ~ .modicons {
+            fill: var(--white-text);
+            border-color:var(--accent-color);
+            background-color: var(--accent-color);
+            background-origin :border-box;
+            background-size :contain;
+        }
+    .container-fieldmod-checkbox {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+    .hero-form-link {
+        margin-left: 4px;
+        color: var(--accent-color);
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .container-fieldmod-checkbox .checkbox-lable {
+    position: relative;
+        margin-left: 36px;
+        display: flex;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--color-text);}
+
+
+        
+        
